@@ -4,4 +4,37 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
-  
+ * {margin: 0px;
+  padding: 0px;
+  }
+  #hero-section{
+    background: linear-gradient(200deg, rgb(16,16,16) -19.5%,rgb(16,16,16, 0) 100%),url("../new-year-offer-resources/images/Banner\ Image.png");
+    height: 600px;
+    width: 1320px;
+    background-size: cover;
+    margin: 50px 150px 50px 150px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-content{
+    width: 632px;
+    height: 346px;
+  }
+  .hero-title{
+    font-weight: 500px;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .hero-sub-title{
+    font-weight: bolder;
+    font-size: 80px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .hero-content{
+    /* margin: 177px 344px 177px 344px; */
+    margin: 0, auto;
+  }
